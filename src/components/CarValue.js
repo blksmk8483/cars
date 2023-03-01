@@ -10,12 +10,11 @@ function CarValue() {
             cost += car.cost;
         }
         return cost;
-
     });
 
     return <div className="car-value">
         Total Cost: ${totalCost}
-        </div>;
+    </div>;
 }
 
 export default CarValue;
